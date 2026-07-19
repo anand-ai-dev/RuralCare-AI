@@ -133,7 +133,7 @@ doc.text(lines, 20, y);
     setResult("");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/analyze", {
+      const response = await fetch("https://ruralcare-ai-tzd9.onrender.com/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
